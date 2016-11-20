@@ -1,0 +1,174 @@
+[{
+	"id":1,
+	"type":"radio",
+	"department":"webUI",
+	"topics":"html",
+	"level":"easy",
+	"user":"zhangsan",
+	"source":"briup",
+	"uploadTime":"2016/9/14",
+	"times":0, 
+	"stem":"这是一个单选题？",
+	"choices":[
+		{
+			"id" : "A",
+			"correct" : "true",
+			"content" : "我是对的"	
+		},
+		{
+			"id" : "B",
+			"correct" : "false",
+			"content" : "我是不对的"	
+		},
+		{
+			"id" : "C",
+			"correct" : "false",
+			"content" : "我不是对的"	
+		},
+		{
+			"id" : "D",
+			"correct" : "false",
+			"content" : "我是错的"	
+		}
+	],
+	"analysis":"解析：这个题目是这样的",
+	"checkState":"未审核"
+},
+{
+	"id":2,
+	"type":"radio",
+	"department":"javaEE",
+	"topics":"angularJS",
+	"level":"medium",
+	"user":"zhangsan",
+	"source":"briup",
+	"uploadTime":"2016/9/14",
+	"times":0,
+	"stem":"这是一个单选题？",
+	"choices":[
+		{
+			"id" : "A",
+			"correct" : "false",
+			"content" : "我是对的"	
+		},
+		{
+			"id" : "B",
+			"correct" : "true",
+			"content" : "我是不对的"	
+		},
+		{
+			"id" : "C",
+			"correct" : "false",
+			"content" : "我不是对的"	
+		},
+		{
+			"id" : "D",
+			"correct" : "false",
+			"content" : "我是错的"	
+		}
+	],
+	"analysis":"解析：这个题目是这样的",
+	"checkState":"未审核"
+},
+{
+	"id":3,
+	"type":"checkbox",
+	"department":"Android",
+	"topics":"Javascript",
+	"level":"difficult",
+	"user":"zhangsan",
+	"source":"briup",
+	"uploadTime":"2016/9/14",
+	"times":0,
+	"stem":"这是一个多选题？",
+	"choices":[
+		{
+			"id" : "A",
+			"correct" : "true",
+			"content" : "我是对的"	
+		},
+		{
+			"id" : "B",
+			"correct" : "false",
+			"content" : "我是不对的"	
+		},
+		{
+			"id" : "C",
+			"correct" : "true",
+			"content" : "我不是对的"	
+		},
+		{
+			"id" : "D",
+			"correct" : "false",
+			"content" : "我是错的"	
+		}
+	],
+	"analysis":"解析：这个题目是这样的",
+	"checkState":"未审核"
+},
+{
+	"id":4,
+	"type":"checkbox",
+	"department":"IOS",
+	"topics":"jQuery",
+	"level":"easy",
+	"user":"zhangsan",
+	"source":"briup",
+	"uploadTime":"2016/9/14",
+	"times":0,
+	"stem":"这是一个多选题？",
+	"choices":[
+		{
+			"id" : "A",
+			"correct" : "true",
+			"content" : "我是对的"	
+		},
+		{
+			"id" : "B",
+			"correct" : "true",
+			"content" : "我是不对的"	
+		},
+		{
+			"id" : "C",
+			"correct" : "true",
+			"content" : "我不是对的"	
+		},
+		{
+			"id" : "D",
+			"correct" : "true",
+			"content" : "我是错的"	
+		}
+	],
+	"analysis":"解析：这个题目是这样的",
+	"checkState":"未审核"
+},
+{
+	"id":5,
+	"type":"chapter",
+	"department":"webUI",
+	"topics":"html",
+	"level":"easy",
+	"user":"zhangsan",
+	"source":"briup",
+	"uploadTime":"2016/9/14",
+	"times":0,
+	"stem":"这是一个问答题？",
+	"answer":"答：这个题目1解决了。",
+	"analysis":"解析：这个题目是这样的",
+	"checkState":"未审核"
+},
+{
+	"id":6,
+	"type":"chapter",
+	"department":"JavaEE",
+	"topics":"html5",
+	"level":"difficult",
+	"user":"zhangsan",
+	"source":"briup",
+	"uploadTime":"2016/9/14",
+	"times":0,
+	"stem":"这是一个问答题？",
+	"answer":"答：这个题目2解决了。",
+	"analysis":"解析：这个题目是这样的",
+	"checkState":"未审核"
+}]

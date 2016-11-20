@@ -1,0 +1,236 @@
+[{
+			"id":1,
+			"examPaper":null,
+			"uploadTime":"2016-09-21",
+			"user": "zhangsan",
+			"analysis":"题目的分析",
+			"answer":"",
+			"stem":"小明为什么哭了？",
+			"department":{
+				"id":2,
+				"name":"JavaEE"
+			},
+			"subjectLevel":{
+				"id":1,
+				"name":"easy",
+				"realName":"简单"
+			},
+			"subjectType":{
+				"id":2,
+				"name":"check",
+				"realName":"复选题"
+			},
+			"topic":{
+				"department":{
+					"id":1,
+					"name":"webUI"
+				},
+				"id":1,
+				"title":"HTML"
+			}
+			,"choices":[{
+				"id":1,
+				"content":"爱在西元前",
+				"xx" : "A",
+				"correct":true
+			},{
+				"id":2,
+				"content":"稻香",
+				"xx" : "B",
+				"correct":false
+			},{
+				"id":3,
+				"content":"彩虹",
+				"xx" : "C",
+				"correct":false
+			},{
+				"id":4,
+				"content":"简单爱",
+				"xx" : "D",
+				"correct":false
+			}]
+},{
+			"id":2,
+			"examPaper":null,
+			"uploadTime":"2016-09-21",
+			"user": "zhangsan",
+			"analysis":"题目的分析",
+			"answer":"",
+			"stem":"小红为什么哭了？",
+			"department":{
+				"id":5,
+				"name":"PHP"
+			},
+			"subjectLevel":{
+				"id":2,
+				"name":"easy",
+				"realName":"一般"
+			},
+			"subjectType":{
+				"id":1,
+				"name":"check",
+				"realName":"单选题"
+			},
+			"topic":{
+				"department":{
+					"id":1,
+					"name":"webUI"
+				},
+				"id":1,
+				"title":"HTML"
+			}
+			,"choices":[{
+				"id":1,
+				"content":"爱在西元前",
+				"xx" : "A",
+				"correct":true
+			},{
+				"id":2,
+				"content":"稻香",
+				"xx" : "B",
+				"correct":false
+			},{
+				"id":3,
+				"content":"彩虹",
+				"xx" : "C",
+				"correct":false
+			},{
+				"id":4,
+				"content":"简单爱",
+				"xx" : "D",
+				"correct":false
+			}]
+},{
+			"id":3,
+			"examPaper":null,
+			"uploadTime":"2016-09-21",
+			"user": "zhangsan",
+			"analysis":"题目的分析",
+			"answer":"",
+			"stem":"小绿为什么哭了？",
+			"department":{
+				"id":1,
+				"name":"webUI"
+			},
+			"subjectLevel":{
+				"id":3,
+				"name":"easy",
+				"realName":"困难"
+			},
+			"subjectType":{
+				"id":1,
+				"name":"check",
+				"realName":"单选题"
+			},
+			"topic":{
+				"department":{
+					"id":1,
+					"name":"webUI"
+				},
+				"id":1,
+				"title":"HTML"
+			}
+			,"choices":[{
+				"id":1,
+				"content":"爱在西元前",
+				"xx" : "A",
+				"correct":true
+			},{
+				"id":2,
+				"content":"稻香",
+				"xx" : "B",
+				"correct":false
+			},{
+				"id":3,
+				"content":"彩虹",
+				"xx" : "C",
+				"correct":false
+			},{
+				"id":4,
+				"content":"简单爱",
+				"xx" : "D",
+				"correct":false
+			}]
+},{
+			"id":4,
+			"examPaper":null,
+			"uploadTime":"2016-09-21",
+			"user": "zhangsan",
+			"analysis":"题目的分析",
+			"answer":"",
+			"stem":"张三为什么哭了？",
+			"department":{
+				"id":5,
+				"name":"PHP"
+			},
+			"subjectLevel":{
+				"id":2,
+				"name":"easy",
+				"realName":"一般"
+			},
+			"subjectType":{
+				"id":2,
+				"name":"check",
+				"realName":"复选题"
+			},
+			"topic":{
+				"department":{
+					"id":1,
+					"name":"webUI"
+				},
+				"id":1,
+				"title":"HTML"
+			}
+			,"choices":[{
+				"id":1,
+				"content":"爱在西元前",
+				"xx" : "A",
+				"correct":true
+			},{
+				"id":2,
+				"content":"稻香",
+				"xx" : "B",
+				"correct":false
+			},{
+				"id":3,
+				"content":"彩虹",
+				"xx" : "C",
+				"correct":false
+			},{
+				"id":4,
+				"content":"简单爱",
+				"xx" : "D",
+				"correct":false
+			}]
+},{
+			"id":5,
+			"examPaper":null,
+			"uploadTime":"2016-09-21",
+			"user": "zhangsan",
+			"analysis":"题目的分析",
+			"answer":"",
+			"stem":"张三为什么哭了？",
+			"department":{
+				"id":5,
+				"name":"PHP"
+			},
+			"subjectLevel":{
+				"id":2,
+				"name":"easy",
+				"realName":"一般"
+			},
+			"subjectType":{
+				"id":3,
+				"name":"check",
+				"realName":"简答题"
+			},
+			"topic":{
+				"department":{
+					"id":1,
+					"name":"webUI"
+				},
+				"id":1,
+				"title":"HTML"
+			}
+			
+}]

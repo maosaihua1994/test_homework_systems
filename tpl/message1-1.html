@@ -1,0 +1,103 @@
+<script type="text/javascript">
+  
+  $(function(){
+    $(".chose").bind("mouseover",function(){
+      $(".chose").children().bind("click",function(){
+        $(this).attr("class","active3");
+        $(this).siblings().removeAttr('class');
+        })
+     })
+   })
+</script>
+<div class="editingarea" >
+                    <div class="c_flex"><span class="c_flexible"></span></div>
+                	<div class="c_editview">
+                   <div class="c_condition">
+                       <span><select><option>题干</option></select></span>
+                       <span class="pl5 " ><input type="text"></span>
+                       <span class="pl15 pr15 btn_gray ">查找</span>
+                       <span class="icon_lead-in"><em class="icon_r">批量导入题目</em></span>
+                       <a href="#addmessage"><span class="icon_add"><em class="icon_r">单个添加题目</em></span></a>
+                    </div>
+                    <div class="divtable">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablea">
+                        
+                            <tbody>
+                            <tr>
+                              <td align="center">题型</td>
+                                <td align="left" >
+                                <div class="chose" ><a href="" class="active3" ng-click="update('type')">全部</a>
+                      <!-- ng-click:click:调用函数，传入参数t,item.name,在函数里在用a,id接住传入的参数 -->
+                                <a href="" ng-repeat="i in getAllSubjectType" ng-click="update('type',i.id)">{{i.realName}}</a></div>   
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                              <td align="center">方向</td>
+                                <td align="left" >
+                                <div class="chose" ><a href="" class="active3" ng-click="update('dep')">全部</a><a href="" ng-repeat="i in getAllDepartmentes" ng-click="update('dep',i.id)">{{i.name}}</a></div>
+
+                                    
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                              <td align="center">难易程度</td>
+                                <td align="left" >
+                                <div class="chose" ><a href="" class="active3" ng-click="update('level')">全部</a><a href="" ng-repeat="i in getAllSubjectLevel" ng-click="update('level',i.id)">{{i.realName}}</a></div>
+    
+                                </td>
+
+                            </tr>
+                            <tr>
+                              <td align="center">知识点</td>
+                                <td align="left" >
+                                <div class="chose" ><a href="" class="active3" ng-click="update('topics')">全部</a><a href="" ng-repeat="i in getAllTopics" ng-click="update('topics',i.id)">{{i.title}}</a></div>
+
+                                    
+                                </td>
+
+                            </tr>
+                            </tbody> 
+                        </table>
+                    </div>
+
+                       <div class="Catalog" >
+                       
+                           
+                           <div class="Catalog_right" >
+                               <div class="Catalogtitle">总计<em>15552</em>道题&nbsp;&nbsp;提示：单击体面可显示答案和解析&nbsp;&nbsp;<input type="checkbox" /><b>显示答案和解析</b>&nbsp;&nbsp;<a href="#" class="Thispage">本页全部试题加入试卷</a><div><i>1</i><a href="#" class="pageone">前</a><a href="#" class="pagetwo">后</a></div></div>
+
+
+
+                               <div class="Catalog_rightnei" ng-repeat="item in getAllSubjects|filter:obj">
+                                    <div class="Catalogtitwo"  >题号：{{item.id}}&nbsp;&nbsp;题型：{{item.subjectType.realName}}&nbsp;&nbsp;难度：{{item.subjectLevel.realName}}&nbsp;&nbsp;上传人：{{item.user}}&nbsp;&nbsp;来源：{{item.source}}&nbsp;&nbsp;上传时间:{{item.uploadTime}}&nbsp;&nbsp;组卷次数：<em>0</em></div>
+                                    <div class="Catalogcontent">
+                                        <div class="Catalogcontentup">
+                                        {{item.stem}}
+                                        <br>{{item.analysis}}
+                                        <br><span ng-repeat="i in item.choices">{{i.xx}}:{{i.content}}--{{i.correct}}<br></span>
+                                        <br>
+                                        {{item.answer}}
+                                        <br>
+
+                                        </div>
+                                        <div class="Catalogcontentdown"><a href="#">审核通过</a><a href="#">审核不通过</a><a href="#">删除题目</a></div>
+                                    </div>
+                               </div>
+                               <!-- <div class="Catalog_rightnei"> 
+                                    <div class="Catalogtitwo">题号：25544&nbsp;&nbsp;题型：还是得&nbsp;&nbsp;难度：订餐&nbsp;&nbsp;上传人：女性司机&nbsp;&nbsp;来源：才能使得&nbsp;&nbsp;上传时间:220255&nbsp;&nbsp;组卷次数：<em>0</em></div>
+                                    <div class="Catalogcontent">
+                                      <div class="Catalogcontentup">题型
+
+                                   
+                                      </div> -->
+
+
+                           </div>
+                           <div class="clear"></div>
+                       </div>
+                    </div>
+                </div>
