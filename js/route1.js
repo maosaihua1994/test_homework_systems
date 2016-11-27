@@ -50,11 +50,10 @@ app.config(function($routeProvider){
 		templateUrl : "tpl/message1-1.html",
 		controller : 'all'
 	}).when("/message1-2",{
-		// 全部题目的路由
+
 		templateUrl : "tpl/message1-2.html",
 		controller : 'message1-2'
 	}).when("/addmessage",{
-		// 全部题目的路由
 		templateUrl : "tpl/addmessage.html",
 		controller : 'addmessage'
 	}).otherwise({
